@@ -12,43 +12,43 @@
         <div class="row">
             <div class="col">
                 <img class="profile1" src="./Assets/csk.png" height="150px" width="150px" alt="CSK">
-                <span class="name">CSK</span>
-                <div class="row round">
-                    <span class="col">6</span>
-                    <span class="col">4</span>
-                    <span class="col">W</span>
+                <span class="name" id='team-1-name'></span>
+                <div class="row round" id='team-1-round-score'>
                     <span class="col">-</span>
-                    <span class="col">3</span>
-                    <span class="col">1</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
                 </div>
             </div>
             <div class="col">
-                <h2>
-                    <span>14</span>
+                <div class="row score">
+                    <span id="team-1-score"></span>
                     <span>-</span>
-                    <span>16</span>
-                </h2>
+                    <span id="team-2-score"></span>
+                </div>
             </div>
             <div class="col">
                 <img class="profile2" src="./Assets/MI.png" height="150px" width="150px" alt="MI">
-                <span class="name">MI</span>
-                <div class="row round">
-                    <span class="col">6</span>
-                    <span class="col">4</span>
-                    <span class="col">W</span>
+                <span class="name" id="team-2-name"></span>
+                <div class="row round" id="team-2-round-score">
                     <span class="col">-</span>
-                    <span class="col">6</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
                     <span class="col">-</span>
                 </div>
             </div>
        </div>
        <div class="row"> 
-           <button class="button">Strike</button>
+           <button id='button' class="button" onclick=ButtonClick()></button>
         </div>
        
-        <div>
-            <!--  -->
+        <div class="row" id="final-result" >
         </div>
    </div>
+   <script src="script.js"></script>
 </body>
 </html>

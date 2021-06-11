@@ -7,7 +7,7 @@
 body{
     background: rgb(255,194,25);
     background: linear-gradient(90deg, rgba(255,194,25,1) 0%, rgba(215,254,255,1) 48%, rgba(0,95,255,1) 100%);
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
 }
@@ -73,4 +73,24 @@ body{
 }
 .button:hover{
     box-shadow: 0 0 10px 0 black;
+}
+
+.score{
+    margin: -80px 0 0;
+    font-size: xx-large;
+}
+
+.score>span{
+    margin: 0 5px;
+}
+
+#final-result{
+    margin-top: 15px;
+    background: #d53369;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cbad6d, #d53369);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cbad6d, #d53369); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: x-large;
+    font-weight: bolder;
+    background-size: text;
+    
 }
